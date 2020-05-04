@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/DSA_Lab/2.2/csll.c
+header.h
+D:/DSA_Lab/2.2/header.h
+
+D:/DSA_Lab/2.2/header.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/DSA_Lab/2.2/main.c
+stdio.h
+-
+header.h
+D:/DSA_Lab/2.2/header.h
+
